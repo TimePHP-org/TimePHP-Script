@@ -11,7 +11,7 @@ class Script {
 		if(explode(":", $installedPackage)[0] === "timephp"){
       	$content = json_decode(file_get_contents(__DIR__ . "/../bin/components.json"), true);
 			$content[] = $installedPackage;	
-			file_put_contents(__DIR__ . "/../components.json", json_encode($content, JSON_PRETTY_PRINT));
+			file_put_contents(__DIR__ . "/../bin/components.json", json_encode($content, JSON_PRETTY_PRINT));
 		}
    }
 
@@ -22,7 +22,7 @@ class Script {
       	if (($key = array_search($uninstalledPackage, $content)) !== false) {
 				unset($content[$key]);
 		  	}
-			file_put_contents(__DIR__ . "/../components.json", json_encode($content, JSON_PRETTY_PRINT));
+			file_put_contents(__DIR__ . "/../bin/components.json", json_encode($content, JSON_PRETTY_PRINT));
 		}
    }
 }
