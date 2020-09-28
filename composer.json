@@ -1,0 +1,10 @@
+{
+    "name": "timephp/script",
+    "description": "Script to update the component list",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TimePHP\\": "src/"
+        }
+    }
+}
