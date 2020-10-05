@@ -1,7 +1,26 @@
 {
     "name": "timephp/script",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
     "description": "Script to update the component list",
-    "require": {},
+    "homepage": "https://github.com/TimePHP-org/TimePHP-Script",
+    "keywords": ["TimePHP", "Framework", "PHP", "MVC"],
+    "minimum-stability": "dev",
+    "readme": "https://github.com/TimePHP-org/TimePHP-Script/blob/master/README.md",
+    "version": "1.0.0",
+    "support": {
+        "email": "timephp.org@gmail.com",
+        "docs": "https://timephp-org.github.io/TimePHP-Docs/#/",
+        "issues": "https://github.com/TimePHP-org/TimePHP-Script/issues",
+        "source": "https://github.com/TimePHP-org/TimePHP-Script/releases"
+    },
+    "authors": [
+        {
+            "name": "Robin B",
+            "email": "timephp.org@gmail.com",
+            "role": "developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "TimePHP\\": "src/"
