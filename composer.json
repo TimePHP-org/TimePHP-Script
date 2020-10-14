@@ -5,7 +5,7 @@
     "description": "Script to update the component list",
     "homepage": "https://github.com/TimePHP-org/TimePHP-Script",
     "keywords": ["TimePHP", "Framework", "PHP", "MVC"],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "readme": "https://github.com/TimePHP-org/TimePHP-Script/blob/master/README.md",
     "version": "1.0.0",
     "support": {
